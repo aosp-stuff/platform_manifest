@@ -5,4 +5,10 @@
            revision="android-10"
            fetch="https://github.com/aosp-stuff" />
 
+  <!-- Remove -->
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- External -->
+  <project path="external/tinycompress" name="platform_external_tinycompress" remote="extra" />
+
 </manifest>
