@@ -7,8 +7,12 @@
 
   <!-- Remove -->
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/hardware/libhardware" />
 
   <!-- External -->
   <project path="external/tinycompress" name="platform_external_tinycompress" remote="extra" />
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" remote="extra" />
 
 </manifest>
